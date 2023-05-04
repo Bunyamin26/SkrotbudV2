@@ -38,6 +38,8 @@ body::-webkit-scrollbar{
   margin-bottom: 20px;
 }
 
+
+
 #navbar {
   display: flex;
   align-items: center;

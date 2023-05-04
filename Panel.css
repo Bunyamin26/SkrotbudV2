@@ -1,0 +1,46 @@
+#header2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    background-color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+  }
+
+
+.panelsection{
+background-color: black;
+transform: translate(0px, 200%);
+}
+
+.paneldiv{
+    display: grid;
+grid-template-areas: "siva";
+grid-gap: 13px;
+padding: 12px;
+background-color: rgb(202, 202, 202);
+grid-auto-rows: auto;
+}
+
+ul.panel{
+  list-style: none;
+  }
+
+  ul.panel {
+    list-style: none;
+  }
+
+  ul.panel li {
+    display: inline-block;
+    padding: 0px 150px;
+}
+
+ul.panel li:not(:last-child) {
+    border-right: 1px solid black;
+}
